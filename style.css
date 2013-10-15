@@ -40,7 +40,7 @@ body {
 }
 
 .level1 {
-    background: url("img/background_category-mini.png");
+    background: url("img/background_category-mini.png") #3b3f4b;
     border-bottom: 1px solid #181e26;
     box-shadow: inset 0 1px 0 #535353;
     color: #c9d1e3;
@@ -49,6 +49,10 @@ body {
 }
 
 .level1:hover {
+    background: #2f3238;
+}
+
+.level1:active {
     background: #535862;
 }
 
@@ -62,7 +66,7 @@ body {
 }
 
 .level2 {
-  
+    /*display: none;*/
 }
 
 .level3:first-child {
@@ -81,7 +85,8 @@ body {
 .level3-text {
     color: #798ea1;
     cursor: pointer;
-    font: 13px bold 'ProximaNova-Regular';
+    font-family: 'ProximaNova-Regular', Helvetica, Arial, sans-serif;
+    font-size: 13px;
 }
 
 .level3-text:hover {

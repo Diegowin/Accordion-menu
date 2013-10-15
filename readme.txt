@@ -1,0 +1,1 @@
+Implemented web-markup based on psd mockup with jquery dynamic effects
