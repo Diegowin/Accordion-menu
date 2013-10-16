@@ -4,8 +4,11 @@
 
 body {
     /*background: url("img/background.png");*/
-    padding: 52px 0;
     background: url("img/background2.png");
+    height: 100%;
+    padding: 52px 0;
+    position: fixed;
+    width: 100%;
 
 }
 
@@ -36,10 +39,6 @@ body {
 }
 
 .level {
-
-}
-
-.level1 {
     background: url("img/background_category-mini.png") #3b3f4b;
     border-bottom: 1px solid #181e26;
     box-shadow: inset 0 1px 0 #535353;
@@ -48,48 +47,75 @@ body {
     overflow: hidden;
 }
 
-.level1:hover {
+.level:hover {
     background: #2f3238;
 }
 
-.level1:active {
+.level:active {
     background: #535862;
 }
 
-.level:first-child .level1 {
+.level:first-child {
     border-radius: 3px 3px 0 0;
 }
 
-.level:last-child .level1 {
+.level:last-child {
     border-radius: 0 0 3px 3px;
     border: 0;
 }
 
-.level2 {
-    /*display: none;*/
-}
-
-.level3:first-child {
-    /*padding: 16px;*/
-}
-
-.level3 {
+.level2-content {
     margin: 16px;
     overflow: hidden;
 }
 
-.icon-level3 {
+.level2-ico {
     margin: 0 16px 0 0;
 }
 
-.level3-text {
+.checkbox {
+    color: #798ea1;
+    cursor: pointer;
+    font-family: 'ProximaNova-Regular', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.checkbox input {
+    margin: 4px 5px 0 0;
+
+    align-content: stretch;
+    align-items: stretch;
+    align-self: stretch;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    flex: 0 1 auto;
+    flex-basis: auto;
+    flex-direction: row;
+    flex-flow: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    font: normal normal 400 14px/20px Arial;
+    height: 20px;
+    justify-content: flex-start;
+    min-height: 20px;
+    order: 0;
+    resize: none;
+    vertical-align: middle;
+    /*width: 89px;*/
+}
+
+.level2-text {
     color: #798ea1;
     cursor: pointer;
     font-family: 'ProximaNova-Regular', Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
 
-.level3-text:hover {
+.level2-text:hover {
     color: #c9d1e3;
 }
 
