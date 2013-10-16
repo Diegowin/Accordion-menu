@@ -4,7 +4,7 @@
 
 body {
     /*background: url("img/background.png");*/
-    background: url("img/background2.png");
+    background: url("../img/background2.png");
     height: 100%;
     padding: 52px 0;
     position: fixed;
@@ -13,7 +13,7 @@ body {
 }
 
 #accordion {
-    background: url("img/background_content.png");
+    background: url("../img/background_content.png");
     border: 1px solid #181e26;
     border-radius: 4px;
     box-shadow: 0 0 1px 1px #727272, 0 0 11px 3px #A7A7A1;
@@ -39,7 +39,7 @@ body {
 }
 
 .level {
-    background: url("img/background_category-mini.png") #3b3f4b;
+    background: url("../img/background_category-mini.png") #3b3f4b;
     border-bottom: 1px solid #181e26;
     box-shadow: inset 0 1px 0 #535353;
     color: #c9d1e3;
