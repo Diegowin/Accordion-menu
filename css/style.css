@@ -19,6 +19,7 @@ body {
     box-shadow: 0 0 1px 1px #727272, 0 0 11px 3px #A7A7A1;
     box-shadow: 0 0 20px 0px #000000, 0 0 3px 1px #7c7c7c;
     margin: 0 auto;
+    padding: 0;
     width: 218px;
 
 
@@ -44,6 +45,7 @@ body {
     box-shadow: inset 0 1px 0 #535353;
     color: #c9d1e3;
     cursor: pointer;
+    list-style: none;
     overflow: hidden;
 }
 
@@ -64,9 +66,17 @@ body {
     border: 0;
 }
 
+.level2 {
+    background: url("../img/background_content.png");
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
 .level2-content {
     margin: 16px;
     overflow: hidden;
+    list-style: none;
 }
 
 .level2-ico {
@@ -113,6 +123,7 @@ body {
     cursor: pointer;
     font-family: 'ProximaNova-Regular', Helvetica, Arial, sans-serif;
     font-size: 13px;
+    margin: 0;
 }
 
 .level2-text:hover {
